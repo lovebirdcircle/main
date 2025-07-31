@@ -12,6 +12,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="icon" type="image/png" href="images/favicon.png">
+	<script 
+  src="https://www.paypal.com/sdk/js?client-id=BAAj0FogYBDE9sNKF4MpLebXoqi_OvNrXKuI6jLrE88nQNvDg5iMeIFVX5AlmlOuBlX1FWepeQpmq1c3WI&components=hosted-buttons&enable-funding=venmo&currency=USD">
+</script>
 </head>
 
 <body class="is-preload">
@@ -71,6 +74,12 @@
 				<h2>Donate</h2>
 			</header>
 			<p>Lovebird Circle is a registered 501(c)(3) nonprofit organization (EIN: 33-4245436). Donations are tax-deductible as allowed by law.</p>
+			<div id="paypal-container-HYJGJ2SPTP2UA"></div>
+			<script>
+			paypal.HostedButtons({
+				hostedButtonId: "HYJGJ2SPTP2UA",
+			}).render("#paypal-container-HYJGJ2SPTP2UA")
+			</script>
 		</section>
 
 		<!-- Contact -->
