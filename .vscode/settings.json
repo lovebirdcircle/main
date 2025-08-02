@@ -8,5 +8,10 @@
     "git.verboseCommit": false,
     "git.inputValidation": false,
     "git.inputValidationLength": 0,
-    "git.inputValidationSubjectLength": 0
+    "git.inputValidationSubjectLength": 0,
+    "git.allowNoVerifyCommit": true,
+    "git.enableCommitSigning": false,
+    "git.postCommitCommand": "none",
+    "scm.inputFontSize": 12,
+    "scm.defaultViewMode": "tree"
 }
