@@ -12,6 +12,9 @@
     "git.allowNoVerifyCommit": true,
     "git.enableCommitSigning": false,
     "git.postCommitCommand": "none",
-    "scm.inputFontSize": 12,
-    "scm.defaultViewMode": "tree"
+    "git.smartCommitChanges": "all",
+    "git.enableSmartCommit": true,
+    "git.promptToSaveFilesBeforeCommit": "never",
+    "git.defaultCloneDirectory": "",
+    "git.commitValidation": false
 }
