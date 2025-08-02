@@ -1,0 +1,12 @@
+{
+    "git.allowEmptyCommits": true,
+    "git.requireGitUserConfig": false,
+    "git.alwaysSignOff": false,
+    "git.confirmEmptyCommits": false,
+    "git.confirmNoVerifyCommit": false,
+    "git.useCommitInputAsStashMessage": false,
+    "git.verboseCommit": false,
+    "git.inputValidation": false,
+    "git.inputValidationLength": 0,
+    "git.inputValidationSubjectLength": 0
+}
