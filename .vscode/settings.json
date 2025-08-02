@@ -1,20 +1,12 @@
 {
     "git.allowEmptyCommits": true,
-    "git.requireGitUserConfig": false,
-    "git.alwaysSignOff": false,
     "git.confirmEmptyCommits": false,
-    "git.confirmNoVerifyCommit": false,
-    "git.useCommitInputAsStashMessage": false,
+    "git.enableSmartCommit": true,
+    "git.smartCommitChanges": "all",
+    "git.postCommitCommand": "none",
     "git.verboseCommit": false,
     "git.inputValidation": false,
-    "git.inputValidationLength": 0,
-    "git.inputValidationSubjectLength": 0,
-    "git.allowNoVerifyCommit": true,
-    "git.enableCommitSigning": false,
-    "git.postCommitCommand": "none",
-    "git.smartCommitChanges": "all",
-    "git.enableSmartCommit": true,
     "git.promptToSaveFilesBeforeCommit": "never",
-    "git.defaultCloneDirectory": "",
-    "git.commitValidation": false
+    "git.useEditorAsCommitInput": false,
+    "git.alwaysShowStagedChangesResourceGroup": false
 }
